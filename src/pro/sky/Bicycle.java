@@ -1,21 +1,5 @@
 package pro.sky;
 
-public class Bicycle {
-
-    protected String modelName;
-    protected int wheelsCount;
-
-    public void updateTyre() {
-        System.out.println("Меняем покрышку");
-    }
-
-    public String getModelName() {
-        return modelName;
-    }
-
-
-    public int getWheelsCount() {
-        return wheelsCount;
-    }
+public class Bicycle extends Vehicle {
 
 }
